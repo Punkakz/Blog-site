@@ -120,5 +120,12 @@ textarea{
     border: 2px solid rgba(30,85,250,0.47);
     background-color: #11999e;
 }
-
+@media screen and (max-width: 1000px){
+	.contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 200px;
+	}
+}
 
