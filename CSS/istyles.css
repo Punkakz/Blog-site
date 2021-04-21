@@ -1,0 +1,110 @@
+#title {
+  background-color: #11999e;
+  color: black;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title-image {
+  position: absolute;
+  width: 60%;
+  left: 30%;
+}
+
+#slider {
+  text-align: center;
+  background-color: #9dbeb9;
+  color: black;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.slider-image {
+  width: 50%;
+  margin: 0px;
+}
+
+#Blogcard {
+  padding: 100px;
+  text-align: center;
+}
+
+.log {
+  padding: 3% 2%;
+}
+
+#footer {
+  padding: 7% 15%;
+  background-color: #393e46;
+  text-align: center;
+}
+
+
+  .icons{
+    margin: 20px 10px;
+  }
+
+
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+  }
+
+  #footer {
+    padding: 7% 15%;
+    background-color: #393e46;
+    text-align: center;
+  }
+
+  .icons{
+    margin: 20px 10px;
+  }
